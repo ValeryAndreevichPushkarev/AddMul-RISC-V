@@ -1,3 +1,15 @@
+# Base AddMul Modules
+Contain generator for base Add Mul commands with specified bitness.
+
+Number of swithing transistors in add(16): 36
+
+Number of swithing transistors in mul(16): 196
+
+
+# TODO:
+
+Convert those generator to tree for any function
+
 # TreeFunc
 Represent any function with a tree of subfunc with fixed len/bitness
 
