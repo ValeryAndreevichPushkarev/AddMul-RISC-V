@@ -26,10 +26,12 @@ baseBitness = int(math.log(width,2))
 
 print("Total delay in transistors switches in add "+str(target_MulAdd_bitness)+"b (approx): " + str(2**(RecursionLevel)))
 print("Total active logical elements in add : " + str(6**(RecursionLevel)))
-
+print("Total transistors in add : " +str(width*width*6**(RecursionLevel)))
 
 print("Total delay in transistors switches in mul "+str(target_MulAdd_bitness)+"b (approx): " + str(4**(RecursionLevel)))
 print("Total active logical elements in mul : " + str(14**(RecursionLevel)))
+print("Total transistors in mul : " +str(width*width*14**(RecursionLevel)))
+
 
 
 #TODO:
