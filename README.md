@@ -1,9 +1,19 @@
 # Base AddMul Modules
 Contain generator for base Add Mul commands with specified bitness.
 
-Number of swithing transistors in add(16): 36
+Total delay in transistors switches in add 32b (approx): 8
 
-Number of swithing transistors in mul(16): 196
+Total active logical elements in add : 216
+
+Total transistors in add : 55296
+
+
+Total delay in transistors switches in mul 32b (approx): 64
+
+Total active logical elements in mul : 2744
+
+Total transistors in mul : 702464
+
 
 
 # TODO:
