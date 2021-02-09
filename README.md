@@ -23,8 +23,8 @@ Convert those generator to tree for any function.
 Target - function with any bitness with parameters:
 - [ ] can change from binary to positional encoding
 - [ ] can implement any bitness (8-16-32-64)
-- [ ] 16 bit - 32k transistors, 64 transistor switches, 8 switches delay.
-- [ ] set of a 16 bit functions - 40k transistors, 128 transistor switches, 8 switches delay
+- [ ] 32 bit - 32k transistors, 64 transistor switches, 8 switches delay.
+- [ ] set of a 32 bit functions - 40k transistors, 128 transistor switches, 8 switches delay
  
 # TreeFunc
 Represent any function with a tree of subfunc with fixed len/bitness
