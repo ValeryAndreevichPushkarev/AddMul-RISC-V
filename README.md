@@ -13,7 +13,9 @@ Total delay in transistors switches in mul 32b (approx): 64
 Total active logical elements in mul : 2744
 Total transistors in mul : 702464
 
+Total power consumption:
 
+About 1mW
 
 # TODO:
 
