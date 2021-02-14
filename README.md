@@ -37,7 +37,16 @@ Represent any function with a tree of subfunc with fixed len/bitness
 			|				
 	d	-	op3		R=OP3(OP2;d)	      OR, all results from d	op3 can be determined
 			|				
-			r				
+			r	
+			
+			
+			a	b	c	d
+			|	|	|	|	
+			    op1		    op2
+			     |		     |
+			     -------op3-------
+			     	     |
+				     r
 
 Make about 3 dictionaries that represent op1-op3. Change d c b a retrospectively.
 
