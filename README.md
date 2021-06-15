@@ -8,7 +8,6 @@ Total active logical elements in add : **216**
 Total transistors in add : 55296
 
 
-
 Total delay in transistors switches in mul 32b (approx): 64
 Total active logical elements in mul : **2744**
 Total transistors in mul : 702464
@@ -16,6 +15,9 @@ Total transistors in mul : 702464
 Total power consumption:
 
 About 1mW
+
+# TODO:
+Add RISC-V 32i commands (AND\OR\XOR and so)
 
 # TODO:
 
