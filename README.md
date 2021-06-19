@@ -17,39 +17,4 @@ Total power consumption:
 About 1mW
 
 # TODO:
-Add RISC-V 32i commands (AND\OR\XOR and so)
-
-# TODO:
-
-Convert those generator to tree for any function.
-Target - function with any bitness with parameters:
-- [ ] can change from binary to positional encoding
-- [ ] can implement any bitness (8-16-32-64)
-- [ ] 32 bit - 32k transistors, 64 transistor switches, 8 switches delay.
-- [ ] set of a 32 bit functions - 40k transistors, 128 transistor switches, 8 switches delay
- 
-# TreeFunc
-Represent any function with a tree of subfunc with fixed len/bitness
-
-			a				
-			|				
-	b	-	op1				
-			|				
-	c	-	op2		Rt=OP2(OP1;c)	      OR, all results from c with op3 known	op2 can be determined
-			|				
-	d	-	op3		R=OP3(OP2;d)	      OR, all results from d	op3 can be determined
-			|				
-			r	
-			
-			
-			a	b	c	d
-			|	|	|	|	
-			    op1		    op2
-			     |		     |
-			     -------op3-------
-			     	     |
-				     r
-
-Make about 3 dictionaries that represent op1-op3. Change d c b a retrospectively.
-
-f(ab,cd) = r4r3r2r1
+Add RISC-V 32(64)i commands (AND\OR\XOR and so)
