@@ -14,6 +14,7 @@ Total transistors in mul : 702464
 
 Total power consumption:
 
+3k transistor switches on 1 Ghz or so
 About 1mW
 
 # TODO:
