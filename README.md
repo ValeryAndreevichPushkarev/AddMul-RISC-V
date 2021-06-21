@@ -66,4 +66,6 @@ Total power consumption:
 About 1mW
 
 # TODO:
-Add RISC-V 32(64)i commands (AND\OR\XOR and so)
+Add RISC-V 32(64)i commands (AND\OR\XOR and so).
+Merge ADD/MUL modules.
+Make AND/OR/XOR in another module.
