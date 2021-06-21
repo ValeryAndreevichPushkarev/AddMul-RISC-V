@@ -1,9 +1,9 @@
 # Base AddMul Modules
-Contain generator for base Add Mul commands with specified bitness.
+Contain generator for base Add Mul commands with specified bitness based on postion encoding.
 
 This allows to build up to 1K cores per one chip (2k switches for most sophisticated command for 32 bit)
 
-## 4 bit base:
+## 4 bit base (width=16):
 
 Total delay in transistors switches in add 32b (approx): 8
 
@@ -31,7 +31,7 @@ Total power dissipation (mW, 3 Ghz) : 22838.0376
 Total transistors in mul : **702464**
 
 
-## 8 bit base
+## 8 bit base (width=256):
 
 Total delay in transistors switches in add 32b (approx): 4
 
