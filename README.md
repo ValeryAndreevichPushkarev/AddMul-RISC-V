@@ -5,14 +5,21 @@ This allows to build up to 1K cores per one chip (2k switches for most sophistic
 
 Total delay in transistors switches in add 32b (approx): 8
 Total active logical elements in add : **216**
-Total transistors in add : 55296
-
+7 nm core freq: 41 Ghz
+7 nm core power (on freq 3 Ghz): **0.0648 mW**
+Total transistors in add : **55296**            
 
 Total delay in transistors switches in mul 32b (approx): 64
 Total active logical elements in mul : **2744**
-Total transistors in mul : 702464
+7 nm core freq: 5 Ghz
+7 nm core power (on freq 3 Ghz): **0.8232 mW**
+Total cores, or modules (add and mul) per ~20b Transistors :24598
+Total power dissipation (mW, 3 Ghz) : 22838.0376
+Total transistors in mul : **702464**
+
 
 Total power consumption:
+
 
 3k transistor switches on 1 Ghz or so
 About 1mW
