@@ -5,59 +5,16 @@ This allows to build up to 1K cores per one chip (2k switches for most sophistic
 
 ## 4 bit base (width=16):
 
-Total delay in transistors switches in add 32b (approx): 8
-
-Total active logical elements in add : **216**
-
-7 nm core freq: 41 Ghz
-
-7 nm core power (on freq 3 Ghz): **0.0648 mW**
-
-Total transistors in add : **55296**
-
-
-Total delay in transistors switches in mul 32b (approx): 64
-
-Total active logical elements in mul : **2744**
-
-7 nm core freq: 5 Ghz
-
-7 nm core power (on freq 3 Ghz): **0.8232 mW**
-
-Total cores, or modules (add and mul) per ~20b Transistors :24598
-
-Total power dissipation (mW, 3 Ghz) : 22838.0376
-
-Total transistors in mul : **702464**
-
-
-## 8 bit base (width=256):
-
-Total delay in transistors switches in add 32b (approx): 4
-
-Total active logical elements in add : **36**
-
-7 nm core freq: 83 Ghz
-
-7 nm core power (on freq 3 Ghz): **0.0108 mW**
-
-Total transistors in add : **2359296**
-
-
-Total delay in transistors switches in mul 32b (approx): 16
-
-Total active logical elements in mul : **196**
-
-7 nm core freq: 20 Ghz
-
-7 nm core power (on freq 3 Ghz): **0.0588 mW**
-
-Total cores, or modules (add and mul) per ~20b Transistors :1138
-
-Total power dissipation (mW, 3 Ghz) : 86.2596
-
-Total transistors in mul : **12845056**
-
+Total delay in transistors switches in add 32b (approx): 16.0
+Total active logical elements in add : 16.0
+Total core power add (mW): 0.0064
+Total transistors in add : 55296
+Freq on 7 nm in add (Ghz) : 6.468305304010349
+Total delay in transistors switches in mul 32b (approx): 19.0
+Total active logical elements in mul : 88.0
+Total core power mul (mW): 0.0352
+Total transistors in mul : 71744.0
+Freq on 7 nm in mul (Ghz) : 5.390254420008625
 
 
 Total power consumption:
@@ -66,6 +23,7 @@ Total power consumption:
 About 1mW
 
 # TODO:
-Add RISC-V 32(64)i commands (AND\OR\XOR and so).
-Merge ADD/MUL modules.
-Make AND/OR/XOR in another module.
+Validate new ADD/MUL modules.
+Validate AND/OR/XOR modules.
+Validate comparasion module.
+
