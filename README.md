@@ -30,10 +30,15 @@ Freq on 7 nm in mul (Ghz) : 5.390254420008625
 Total power consumption:
 
 3k transistor switches on 1 Ghz or so
+
 About 1mW
 
 # TODO:
+
 Validate new ADD/MUL modules.
+
 Validate AND/OR/XOR modules.
+
 Validate comparasion module.
+
 
